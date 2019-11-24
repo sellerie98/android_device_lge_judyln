@@ -28,17 +28,14 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 
 TARGET_USE_JELLY := true
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
-
 # Inherit some common C(6) stuff.
-$(call inherit-product, vendor/carbon/config/common.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Maintainer Prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="LlamaMonster"
+    DEVICE_MAINTAINERS="Sellerie"
 
-PRODUCT_NAME := carbon_judyln
+PRODUCT_NAME := rr_judyln
 PRODUCT_DEVICE := judyln
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_BRAND := LG

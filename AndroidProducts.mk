@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_judyln.mk
+    $(LOCAL_DIR)/rr_judyln.mk

@@ -17,6 +17,8 @@
 # Inherit from lge sdm845-common
 -include device/lge/sdm845-common/BoardConfigCommon.mk
 
+-include frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk
+
 DEVICE_PATH := device/lge/judyln
 
 # Bluetooth
